@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="45px" viewBox="0 0 154 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Abode logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="79.0063234%" y1="20.5641541%" x2="79.0063239%" y2="20.5641541%" id="linearGradient-1">
+            <stop stop-color="#424242" offset="0%"></stop>
+            <stop stop-color="#424242" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.9939384%" y1="20.5641541%" x2="20.9939379%" y2="20.5641541%" id="linearGradient-2">
+            <stop stop-color="#424242" offset="0%"></stop>
+            <stop stop-color="#424242" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Abode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-TABLET" transform="translate(-30.000000, -23.000000)">
+            <g id="Abode-logo" transform="translate(30.000000, 23.000000)">
+                <text id="ABODE" fill="#78A170" font-family="Questrial-Regular, Questrial" font-size="28" font-weight="normal">
+                    <tspan x="29.096" y="44">ABODE</tspan>
+                </text>
+                <path d="M93.7045455,0.705882342 L0.268189062,32.3693245" id="Path" stroke="#424242" fill="url(#linearGradient-1)" transform="translate(46.986367, 16.537603) rotate(-0.000000) translate(-46.986367, -16.537603) "></path>
+                <path d="M61,1 L154,33" id="Path" stroke="#424242" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

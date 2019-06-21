@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Abode logo symbol</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Abode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-TABLET" transform="translate(-353.000000, -1255.000000)">
+            <g id="Abode-logo-symbol" transform="translate(353.000000, 1255.000000)">
+                <circle id="Oval" fill="#78A170" cx="31.5" cy="31.5" r="31.5"></circle>
+                <text id="A" font-family="Questrial-Regular, Questrial" font-size="45" font-weight="normal" letter-spacing="-1.42445" fill="#FFFFFF">
+                    <tspan x="17.317225" y="47.6153846">A</tspan>
+                </text>
+                <path d="M16.4376416,26.8043846 L16.4376416,28.4355206 L65.5326037,28.1413852 L66.6547431,26.5714301 L16.4376416,26.8043846 Z" id="Rectangle" stroke="#424242" fill="#424242" transform="translate(41.783795, 27.502713) rotate(57.000000) translate(-41.783795, -27.502713) "></path>
+                <path d="M-2.6603878,26.6421907 L-1.52454964,28.2335748 L47.554278,28.4890409 L47.554278,27.10718 L-2.6603878,26.6421907 Z" id="Rectangle-Copy" stroke="#424242" fill="#424242" transform="translate(22.208124, 27.562383) rotate(-57.000000) translate(-22.208124, -27.562383) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
