@@ -1,0 +1,110 @@
+/*
+background color: white #ffffff
+text color: black #000000
+accent color: yellow #f1f631
+*/
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: black;
+}
+
+header {
+  background-color: white;
+  font-family: 'Source Code Pro', serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: black;
+}
+
+footer {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Source Code Pro';
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: #f1f631;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f1f631
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid #f1f631;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #f1f631;
+  color: white;
+}
+
+.button:active {
+  background-color: #f1f631;
+  color: white;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid #f1f631;
+  transition-duration: 0.4s;
+}
+
+.button.contact:hover {
+  background-color: #f1f631;
+  color: white;
+}
+
+.button.contact:active {
+  background-color: #f1f631;
+  color: white;
+}

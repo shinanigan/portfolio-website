@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="83px" height="104px" viewBox="0 0 83 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="98px" height="114px" viewBox="0 0 98 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>SRH SHN HNR</title>
+    <title>Logo 3</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SourceCodePro-Semibold, Source Code Pro Semibold" font-size="33" font-weight="500" letter-spacing="12.68">
-        <text id="SRH-SHN-HNR" fill="#000000">
-            <tspan x="-0.72" y="22">SRH</tspan>
-            <tspan x="-0.72" y="63">SHN</tspan>
-            <tspan x="-0.72" y="104">HNR</tspan>
-        </text>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-3" transform="translate(0.000000, -6.000000)">
+            <rect id="Rectangle-bottom-left-Copy" fill="#FFFF00" x="0" y="88" width="32" height="32"></rect>
+            <rect id="Rectangle-middle-center-Copy" fill="#FFFF00" x="32" y="47" width="32" height="32"></rect>
+            <rect id="Rectangle-top-right-Copy" fill="#FFFF00" x="66" y="6" width="32" height="32"></rect>
+            <text id="SRH-SHN-HNR-Copy-2" font-family="SourceCodePro-Semibold, Source Code Pro Semibold" font-size="33" font-weight="500" letter-spacing="12.68" fill="#000000">
+                <tspan x="6.28" y="32">SRH</tspan>
+                <tspan x="6.28" y="73">SHN</tspan>
+                <tspan x="6.28" y="114">HNR</tspan>
+            </text>
+        </g>
     </g>
 </svg>

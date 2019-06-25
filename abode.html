@@ -3,14 +3,18 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Source+Code+Pro:600,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sarah Shin Honner - UX Designer - Brussels, Belgium</title>
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<body>
+<body id="abode">
   <header>
     <div>
-      <img srcset="img/logo.svg" alt="logo">
+      <img src="img/logo.svg" alt="logo">
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -21,223 +25,237 @@
     </div>
   </header>
   <main>
-    <div>
-      <h1>Abode</h1>
+    <div id="abodeOverview">
       <div>
-        <picture>
-          <source srcset="img/abode/abode@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/abode@2.jpg" alt="Abode App Cover Image">
-        </picture>
-      </div>
-      <div>
-        <h2>Overview</h2>
-        <p>Role: UI Designer</p>
-        <p>Tools: Sketch, Principle, Invision, Affinity Designer</p>
-        <p>Time: 2019</p>
-        <p>CareerFoundry course project 2019</p>
-        <p>Buying a home is exciting and emotional. It's also an attractive path towards financial security. But it can be an overwhelming experience, especially for first time buyers who are inundated with a plethora of information online and often sink deeper and deeper into the winding rabbit hole of clicking through multimillion dollar luxury homes they know they can't afford.</p>
-        <p>Abode helps small-scale property buyers "trim the fat" when it comes to buying a new home by providing only the essential and comprehensive information about each property and its neighborhood needed before making a decision to invest time and money on a property.</p>
+        <h1>Abode</h1>
+        <div>
+          <picture>
+            <source srcset="img/abode/abode@1.jpg" media="(max-width:767px)">
+            <img src="img/abode/abode@2.jpg" alt="Abode App Cover Image">
+          </picture>
+        </div>
+        <div>
+          <h2>Overview</h2>
+          <p>Role: UI Designer</p>
+          <p>Tools: Sketch, Principle, Invision, Affinity Designer</p>
+          <p>Time: 2019</p>
+          <p>CareerFoundry course project 2019</p>
+          <p>Buying a home is exciting and emotional. It's also an attractive path towards financial security. But it can be an overwhelming experience, especially for first time buyers who are inundated with a plethora of information online and
+            often sink deeper and deeper into the winding rabbit hole of clicking through multimillion dollar luxury homes they know they can't afford.</p>
+          <p>Abode helps small-scale property buyers "trim the fat" when it comes to buying a new home by providing only the essential and comprehensive information about each property and its neighborhood needed before making a decision to invest
+            time and money on a property.</p>
+        </div>
       </div>
     </div>
-    <div>
-      <h2>User Persona & User Stories</h2>
+    <div id="abodePersona">
+      <div>
+        <h2>User Persona & User Stories</h2>
         <div>
           <picture>
             <source srcset="img/abode/primary-persona@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/primary-persona@2.jpg" alt="Primary persona"
-          </picture>
+            <img src="img/abode/primary-persona@2.jpg" alt="Primary persona" </picture> </div> <div>
+            <ul>
+              <li>As a user, I want to <strong>create a profile</strong> containing all my property criteria, so that I am recommended results most relevant to me.</li>
+              <li>As a user, I want to <strong>search and filter properties</strong>so that I can find good matches based on my needs.</li>
+              <li>As a user, I want to be able to <strong>save or mark properties I am interested in</strong>, so that I can easily revisit them.</li>
+              <li>As a user, I want access to <strong>as much written and visual information as possible about properties I'm interested in</strong>, so that I can make an informed decision.</li>
+              <li>As a user, I want to be able to <strong>contact the right people</strong>if I am interested in viewing a property, so that I can schedule a viewing.</li>
+            </ul>
         </div>
-        <div>
-          <ul>
-            <li>As a user, I want to <strong>create a profile</strong> containing all my property criteria, so that I am recommended results most relevant to me.</li>
-            <li>As a user, I want to <strong>search and filter properties</strong>so that I can find good matches based on my needs.</li>
-            <li>As a user, I want to be able to <strong>save or mark properties I am interested in</strong>, so that I can easily revisit them.</li>
-            <li>As a user, I want access to <strong>as much written and visual information as possible about properties I'm interested in</strong>, so that I can make an informed decision.</li>
-            <li>As a user, I want to be able to <strong>contact the right people</strong>if I am interested in viewing a property, so that I can schedule a viewing.</li>
-          </ul>
-        </div>
+      </div>
     </div>
-    <div>
-      <h2>Wireframes</h2>
-      <p>Based on these user stories, I started designing the core feathres of the web app.</p>
-      <p>One challenge in designing for a mobile web app was the limited screen real estate (pun intended). When wireframing the landing page, I wanted both the log in and sign up features to be visible and easily accessible to the user. However, given the small screen real estate, there was space for only one action button next to the logo and hamburger menu button. I placed the log in and sign up buttons within the hamburger menu but I also placed the log in button at the top of the screen for easy access and visibility. When either a new or returning user selects the log in button, they are able to switch between the log in and sign up tabs.</p>
-      <p>However, once I got to mid and high-fidelity wireframing, I removed the log in button and had all menu items live within the hamburger menu to free up space. Consequently, the log in and signup screen with tab buttons was replaced by two separate screens - each dedicated to either logging in or signing up.</p>
+    <div id="abodeWireframes">
+      <div>
+        <h2>Wireframes</h2>
+        <p>Based on these user stories, I started designing the core feathres of the web app.</p>
+        <p>One challenge in designing for a mobile web app was the limited screen real estate (pun intended). When wireframing the landing page, I wanted both the log in and sign up features to be visible and easily accessible to the user. However,
+          given the small screen real estate, there was space for only one action button next to the logo and hamburger menu button. I placed the log in and sign up buttons within the hamburger menu but I also placed the log in button at the top of
+          the screen for easy access and visibility. When either a new or returning user selects the log in button, they are able to switch between the log in and sign up tabs.</p>
+        <p>However, once I got to mid and high-fidelity wireframing, I removed the log in button and had all menu items live within the hamburger menu to free up space. Consequently, the log in and signup screen with tab buttons was replaced by two
+          separate screens - each dedicated to either logging in or signing up.</p>
         <div>
           <picture>
             <source srcset="img/abode/signing-up@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/signing-up@2.jpg" alt="Low and mid-fidelity wireframes of home screen and signup screen"
-          </picture>
+            <img src="img/abode/signing-up@2.jpg" alt="Low and mid-fidelity wireframes of home screen and signup screen" </picture> </div> <p>Another screen that needed several reiterations was the search results screen. I wanted to show all the
+            filters applied to the search but it was looking too crowded with the filters and buttons taking up half the screen.</p>
+            <p>In the mid and high-fidelity stages, I removed the applied filters, as users are able to see the applied filters under the filter button. I also changed the contained buttons into text buttons in order to provide more breathing room to
+              the top of the screen and to allow the property listings to take up the majority of the screen.</p>
+            <div>
+              <picture>
+                <source srcset="img/abode/search-results@1.jpg" media="(max-width:767px)">
+                <img src="img/abode/search-results@2.jpg" alt="Low and mid-fidelity wireframes of search results screen">
+              </picture>
+            </div>
         </div>
-      <p>Another screen that needed several reiterations was the search results screen. I wanted to show all the filters applied to the search but it was looking too crowded with the filters and buttons taking up half the screen.</p>
-      <p>In the mid and high-fidelity stages, I removed the applied filters, as users are able to see the applied filters under the filter button. I also changed the contained buttons into text buttons in order to provide more breathing room to the top of the screen and to allow the property listings to take up the majority of the screen.</p>
-        <div>
-          <picture>
-            <source srcset="img/abode/search-results@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/search-results@2.jpg" alt="Low and mid-fidelity wireframes of search results screen">
-          </picture>
-        </div>
-    </div>
-    <div>
-      <h2>Design</h2>
-      <p>Once the structure of the app was completed, I created two distinct moodboards to establish the mood and story of the project. As this app is designed primarily for new, small-scale property buyers, I took their experience in mind when choosing the Muted Green moodboard over the Modern Blue. I wanted to give users an overall calm and welcoming feel through the interface. Although the Modern Blue moodboard looks aesthetically nice, the bright, bold colors could be overwhelming. I imagined users wouldn't want to feel overloaded with bright colors when dealing with a big decision such as choosing a property to invest in. The green palette conveys calm and soothing emotions that can help the user experience to be a little bit more relaxing.</p>
-        <div>
-          <picture>
-            <source srcset="img/abode/moodboard-blue@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/moodboard-blue@2.jpg" alt="Modern blue moodboard">
-          </picture>
-        </div>
-        <div>
-          <picture>
-            <source srcset="img/abode/moodboard-green@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/moodboard-green@2.jpg" alt="Muted green moodboard">
-          </picture>
-        </div>
-      <p>I then started sketching some ideas for the logo. I first started with the idea of somehow incorporating the symbol of a house into the logo. At the same time, I wanted the logo to look clean, simple and modern. After drawing a few sketches, I committed to one of my designs circled below.</p>
-        <div>
-          <picture>
-            <source srcset="img/abode/abode-logo-sketches@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/abode-logo-sketches@2.jpg" alt="Sketches of Abode logo ideas">
-          </picture>
-        </div>
-    </div>
-    <div>
-      <h2>Design System</h2>
-      <p>Below is a snapshot of the design guidelines for Abode. To view the full design system, click <a href="https://projects.invisionapp.com/dsm/sarah-honner/abode">here</a>.</p>
-      <h3>Logo</h3>
-      <p>The Abode logotype is on the top of every web app screen while the Abode symbol is at the footer of each web app screen.</p>
-      <p>Typeface: Questrial<br>Colors: primary green (#78A170), dark gray (#424242), white (#FFFFFF)</p>
-      <h4>Abode logotype</h4>
-      <p>The text is in primary green (#78A170) and the two lines are in dark gray (#424242) against a transparent background.</p>
-        <div>
-          <picture>
-            <source srcset="img/abode/abode-logo@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/abode-logo@2.jpg" alt="Abode logo">
-          </picture>
-        </div>
-      <h4>Abode symbol</h4>
-      <p>The "A" is in white (#FFFFFF), the background circle is in the primary green (#78A170), and the two lines are in dark gray (#424242).</p>
-        <div>
-          <picture>
-            <source srcset="img/abode/abode-symbol@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/abode-symbol@2.jpg" alt="Abode symbol">
-          </picture>
-        </div>
-    </div>
-    <div>
-      <h2>Fonts</h2>
-      <div>
-        <p>Aa</p>
-        <p>Libre Baskerville</p>
       </div>
-      <div>
-        <p>Aa</p>
-        <p>Muli SemiBold</p>
-      </div>
-      <div>
-        <p>Aa</p>
-        <p>Muli</p>
-      </div>
-    </div>
-    <div>
-      <h2>Primary colors</h2>
+      <div id="abodeDesign">
         <div>
-          <picture>
-            <source srcset="img/abode/primary-light@1.jpg" media="(max-width:767px)">
-            <img src="img/abode/primary-light@2.jpg" alt="Primary light green">
-          </picture>
+          <h2>Design</h2>
+          <p>Once the structure of the app was completed, I created two distinct moodboards to establish the mood and story of the project. As this app is designed primarily for new, small-scale property buyers, I took their experience in mind when
+            choosing the Muted Green moodboard over the Modern Blue. I wanted to give users an overall calm and welcoming feel through the interface. Although the Modern Blue moodboard looks aesthetically nice, the bright, bold colors could be
+            overwhelming. I imagined users wouldn't want to feel overloaded with bright colors when dealing with a big decision such as choosing a property to invest in. The green palette conveys calm and soothing emotions that can help the user
+            experience to be a little bit more relaxing.</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/moodboard-blue@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/moodboard-blue@2.jpg" alt="Modern blue moodboard">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/moodboard-green@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/moodboard-green@2.jpg" alt="Muted green moodboard">
+            </picture>
+          </div>
+          <p>I then started sketching some ideas for the logo. I first started with the idea of somehow incorporating the symbol of a house into the logo. At the same time, I wanted the logo to look clean, simple and modern. After drawing a few
+            sketches, I committed to one of my designs circled below.</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/abode-logo-sketches@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/abode-logo-sketches@2.jpg" alt="Sketches of Abode logo ideas">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div id="abodeDS">
+        <div>
+          <h2>Design System</h2>
+          <p>Below is a snapshot of the design guidelines for Abode. To view the full design system, click <a href="https://projects.invisionapp.com/dsm/sarah-honner/abode">here</a>.</p>
+          <h3>Logo</h3>
+          <p>The Abode logotype is on the top of every web app screen while the Abode symbol is at the footer of each web app screen.</p>
+          <p>Typeface: Questrial<br>Colors: primary green (#78A170), dark gray (#424242), white (#FFFFFF)</p>
+          <h4>Abode logotype</h4>
+          <p>The text is in primary green (#78A170) and the two lines are in dark gray (#424242) against a transparent background.</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/abode-logo@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/abode-logo@2.jpg" alt="Abode logo">
+            </picture>
+          </div>
+          <h4>Abode symbol</h4>
+          <p>The "A" is in white (#FFFFFF), the background circle is in the primary green (#78A170), and the two lines are in dark gray (#424242).</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/abode-symbol@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/abode-symbol@2.jpg" alt="Abode symbol">
+            </picture>
+          </div>
+        </div>
+        <div>
+          <h3>Fonts</h3>
+          <div>
+            <p>Aa</p>
+            <p>Libre Baskerville</p>
+          </div>
+          <div>
+            <p>Aa</p>
+            <p>Muli SemiBold</p>
+          </div>
+          <div>
+            <p>Aa</p>
+            <p>Muli</p>
+          </div>
+        </div>
+        <div>
+          <h3>Primary colors</h3>
+          <div>
+            <picture>
+              <source srcset="img/abode/primary-light@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/primary-light@2.jpg" alt="Primary light green">
+            </picture>
+          </div>
           <p>Primary light green #B2C9AD</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/primary@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/primary@2.jpg" alt="Primary green">
+            </picture>
+          </div>
+          <p>Primary green #78A170</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/primary-dark@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/primary-dark@2.jpg" alt="Primary dark green">
+            </picture>
+          </div>
+          <p>Primary dark green #5A8658</p>
+          <h3>Secondary color</h3>
+          <div>
+            <picture>
+              <source srcset="img/abode/secondary@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/secondary@2.jpg" alt="Secondary color yellow">
+            </picture>
+            <p>Secondary yellow #EAB44E</p>
+          </div>
         </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/primary@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/primary@2.jpg" alt="Primary green">
-        </picture>
-        <p>Primary green #78A170</p>
+        <div>
+          <h3>Illustrations</h3>
+          <p>Illustrations are used to communicate to our audience on a more specific level such as on confirmation pages and empty state pages.</p>
+          <p>Illustrations are thin line drawings with light, pastel colored fills.</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/illustration1@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/illustration1@2.jpg" alt="Confirmation page illustration">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/illustration2@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/illustration2@2.jpg" alt="Saved properties page empty state illustration">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/illustration3@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/illustration3@2.jpg" alt="Saved searches page empty state illustration">
+            </picture>
+          </div>
+        </div>
       </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/primary-dark@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/primary-dark@2.jpg" alt="Primary dark green">
-        </picture>
-        <p>Primary dark green #5A8658</p>
+      <div id="abodeConclusion">
+        <div>
+          <h2>Introducing Abode</h2>
+          <p>The gallery below shows the final designs for Abode.</p>
+          <div>
+            <picture>
+              <source srcset="img/abode/abode-scrolling.gif" media="(max-width:767px)">
+              <img src="img/abode/abode-scrolling.gif" alt="Scrolling through search results">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/mockup5@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/mockup5@2.jpg" alt="Mockup image">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/mockup4@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/mockup4@2.jpg" alt="Mockup image">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/mockup2@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/mockup2@2.jpg" alt="Mockup image">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/abode/mockup3@1.jpg" media="(max-width:767px)">
+              <img src="img/abode/mockup3@2.jpg" alt="Mockup image">
+            </picture>
+          </div>
+        </div>
       </div>
-      <h2>Secondary color</h2>
-      <div>
-        <picture>
-          <source srcset="img/abode/secondary@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/secondary@2.jpg" alt="Secondary color yellow">
-          <p>Secondary #EAB44E</p>
-        </picture>
-      </div>
-    </div>
-    <div>
-      <h2>Illustrations</h2>
-      <p>Illustrations are used to communicate to our audience on a more specific level such as on confirmation pages and empty state pages.</p>
-      <p>Illustrations are thin line drawings with light, pastel colored fills.</p>
-      <div>
-        <picture>
-          <source srcset="img/abode/illustration1@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/illustration1@2.jpg" alt="Confirmation page illustration">
-        </picture>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/illustration2@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/illustration2@2.jpg" alt="Saved properties page empty state illustration">
-        </picture>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/illustration3@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/illustration3@2.jpg" alt="Saved searches page empty state illustration">
-        </picture>
-      </div>
-    </div>
-    <div>
-      <h2>Introducing Abode</h2>
-      <p>The gallery below shows the final designs for Abode.</p>
-      <div>
-        <picture>
-          <source srcset="img/abode/abode-scrolling.gif" media="(max-width:767px)">
-          <img src="img/abode/abode-scrolling.gif" alt="Scrolling through search results">
-        </picture>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/mockup5@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/mockup5@2.jpg" alt="Mockup image">
-        </picture>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/mockup4@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/mockup4@2.jpg" alt="Mockup image">
-        </picture>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/mockup2@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/mockup2@2.jpg" alt="Mockup image">
-        </picture>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/abode/mockup3@1.jpg" media="(max-width:767px)">
-          <img src="img/abode/mockup3@2.jpg" alt="Mockup image">
-        </picture>
-      </div>
-    </div>
   </main>
   <footer id="contact">
     <div>
       <h2>Get in touch</h2>
-      <p>If you like my work and want to discuss opportunities, feel free to get in touch.</p>
+      <p>If you like my work and want to discuss opportunities, feel free to get in touch. You can ring me at <a href="tel:+32123456789">+32123456789</a> or Skype me at <a href="skype:honnersarah">honnersarah</a>.</p>
+      <p>Want to send me an email?</p>
       <div>
-        <a href="tel:+32123456789">Ring me</a>
-        <a href="skype:honnersarah">Skype me</a>
-      </div>
-      <div>
-        <a href="mailto:honnersarah@gmail.com">Email me</a>
+        <a href="mailto:honnersarah@gmail.com" class="button contact">Email me</a>
       </div>
       <div>
         <h3>Follow me</h3>
