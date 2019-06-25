@@ -3,10 +3,6 @@ background color: white #ffffff
 text color: black #000000
 accent color: yellow #f1f631
 */
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
@@ -23,8 +19,6 @@ header {
   font-weight: 600;
   line-height: 1.6;
   color: black;
-  text-align: center;
-  padding: 10px 0;
 }
 
 footer {
@@ -39,11 +33,6 @@ footer {
 h1, h2, h3, h4 {
   font-family: 'Source Code Pro';
   line-height: 1.4;
-}
-
-h1 {
-  font-size: 2.50em;
-  font-weight: 700;
 }
 
 h2 {
@@ -67,7 +56,6 @@ img {
 
 a {
   color: black;
-  text-decoration: none;
 }
 
 a:hover,
@@ -119,147 +107,4 @@ a:active {
 .button.contact:active {
   background-color: #f1f631;
   color: white;
-}
-
-.contact.info {
-  text-decoration: underline;
-}
-
-.fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa-linkedin {
-  background-color: white;
-  border: 1.5px solid #0077b5;
-  color: #0077b5;
-}
-
-.fa-linkedin:hover {
-  opacity: 0.8;
-  background-color: #0077b5;
-  color: white;
-  transition: 0.4s;
-}
-
-.fa-linkedin:active {
-  opacity: 0.8;
-  background-color: #0088cf;
-  color: white;
-}
-
-.fa-dribbble {
-  background-color: white;
-  border: 1.5px solid #ea4c89;
-  color: #ea4c89;
-}
-
-.fa-dribbble:hover {
-  background-color: #ea4c89;
-  color: white;
-  transition: 0.4s;
-}
-
-.fa-dribbble:active {
-  background-color: #ed6398;
-  color: white;
-}
-
-.fa-flickr {
-  background-color: white;
-  border: 1.5px solid #ff0084;
-  color: #ff0084;
-}
-
-.fa-flickr:hover {
-  background-color: #ff0084;
-  color: white;
-  transition: 0.4s;
-}
-
-.fa-flickr:active {
-  background-color: #f07aa7;
-  color: white;
-}
-
-.fa-twitter {
-  background-color: white;
-  border: 1.5px solid #1da1f2;
-  color: #1da1f2;
-}
-
-.fa-twitter:hover {
-  background-color: #1da1f2;
-  color: white;
-  transition: 0.4s;
-}
-
-.fa-twitter:active {
-  background-color: #35abf3;
-  color: white;
-}
-/* Layout styling */
-
-.container {
-  padding: 0 15px;
-}
-
-.logo {
-  max-width: 100px;
-  max-height: 100px;
-  height: auto;
-}
-
-nav {
-  display: inline-block;
-  width: 100%;
-}
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
-}
-
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: black;
-}
-
-nav > ul > li >a:hover {
-  color: #f1f631;
-  transition: 0.4s;
-}
-
-nav > ul > li >a:active {
-  color: #f1f631;
-}
-
-.row{
-  margin: 25px 0;
-}
-
-#work .row {
-  border-bottom: 1px solid black;
-  padding-bottom: 25px;
-}
-
-#hero {
-  background-color: white;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
-}
-
-#hero h1 {
-  text-align: center;
 }
