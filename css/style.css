@@ -1,33 +1,68 @@
 /*
-background color: white #ffffff
+background color: white #FFFFFF
 text color: black #000000
-accent color: yellow #f1f631
+accent color: yellow #F1F631
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: black;
+  color: #000000;
 }
 
 header {
-  background-color: white;
+  background-color: #FFFFFF;
   font-family: 'Source Code Pro', serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.6;
-  color: black;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  /* box-shadow:3px 3px 5px 0px rgba(183, 183, 183, 0.75);
+  width: 100%;
+  position: fixed; */
 }
 
+/* main {
+    padding-top: 184px;
+} */
+
 footer {
-  background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: black;
+  color: #000000;
+  text-align: center;
+  padding-top: 35px;
+}
+
+hr.line {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  }
+
+footer .container p:last-child {
+  font-size: 9px;
+  margin-top: 2rem;
+}
+footer .social ul {
+  list-style: none;
+  padding: 0;
+}
+footer .social ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+footer .social ul li a {
+  border-radius: 50%;
 }
 
 h1, h2, h3, h4 {
@@ -35,9 +70,16 @@ h1, h2, h3, h4 {
   line-height: 1.4;
 }
 
+h1 {
+  font-size: 2.50em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 h2 {
   font-size: 2.25em;
-  font-weight: 700;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -55,56 +97,263 @@ img {
 }
 
 a {
-  color: black;
+  color: #000000;
 }
 
 a:hover,
 a:focus {
-  color: #f1f631;
+  color: #F1F631;
   text-decoration: none;
 }
 
 a:active {
-  color: #f1f631
+  color: #F1F631
   text-decoration: none;
 }
 
 .button {
   display: inline-block;
-  background-color: white;
-  color: black;
+  background-color: #FFFFFF;
+  color: #000000;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border: 2px solid #f1f631;
+  border: 2px solid #F1F631;
   transition-duration: 0.4s;
 }
 
 .button:hover {
-  background-color: #f1f631;
-  color: white;
+  background-color: #F1F631;
+  color: #FFFFFF;
 }
 
 .button:active {
-  background-color: #f1f631;
-  color: white;
+  background-color: #F1F631;
+  color: #FFFFFF;
 }
 
 .button.contact {
   background-color: transparent;
-  color: black;
+  color: #000000;
   text-transform: uppercase;
-  border: 2px solid #f1f631;
+  border: 2px solid #F1F631;
   transition-duration: 0.4s;
 }
 
 .button.contact:hover {
-  background-color: #f1f631;
-  color: white;
+  background-color: #F1F631;
+  color: #FFFFFF;
 }
 
 .button.contact:active {
-  background-color: #f1f631;
-  color: white;
+  background-color: #F1F631;
+  color: #FFFFFF;
 }
+
+.contact.info {
+  text-decoration: underline;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background-color: #FFFFFF;
+  border: 1.5px solid #0077B5;
+  color: #0077B5;
+}
+
+.fa-linkedin:hover {
+  opacity: 0.8;
+  background-color: #0077B5;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.fa-linkedin:active {
+  opacity: 0.8;
+  background-color: #0088CF;
+  color: #FFFFFF;
+}
+
+.fa-dribbble {
+  background-color: #FFFFFF;
+  border: 1.5px solid #EA4C89;
+  color: #EA4C89;
+}
+
+.fa-dribbble:hover {
+  background-color: #EA4C89;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.fa-dribbble:active {
+  background-color: #ED6398;
+  color: #FFFFFF;
+}
+
+.fa-flickr {
+  background-color: #FFFFFF;
+  border: 1.5px solid #FF0084;
+  color: #FF0084;
+}
+
+.fa-flickr:hover {
+  background-color: #FF0084;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.fa-flickr:active {
+  background-color: #F07AA7;
+  color: #FFFFFF;
+}
+
+.fa-twitter {
+  background-color: #FFFFFF;
+  border: 1.5px solid #1DA1F2;
+  color: #1DA1F2;
+}
+
+.fa-twitter:hover {
+  background-color: #1DA1F2;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.fa-twitter:active {
+  background-color: #35ABF3;
+  color: #FFFFFF;
+}
+
+#cv {
+  text-align: center;
+
+}
+
+/*
+========================
+    Layout styling
+========================
+*/
+
+.container {
+  padding: 0 15px;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  height: auto;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+
+nav > ul > li >a:hover {
+  color: #F1F631;
+  transition: 0.4s;
+}
+
+nav > ul > li >a:active {
+  color: #F1F631;
+}
+
+.row{
+  margin: 25px 0;
+}
+
+#work .row {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 25px;
+}
+
+#hero {
+  background-color: #FFFFFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: none;
+}
+
+#hero h1 span {
+  font-weight: 400;
+}
+
+#hero h4 {
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+#work h2 {
+  text-align: center;
+}
+
+#schnitzeljagd h1 {
+  text-align: center;
+}
+
+#schnitzeljagd h2 {
+  text-align: center;
+}
+
+#schnitzeljagd h3 {
+  text-align: center;
+}
+
+#abode h1 {
+  text-align: center;
+}
+#abode h2 {
+  text-align: center;
+}
+
+#abode h3 {
+  text-align: center;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+/*
+========================
+    MEDIA QUERIES
+========================
+*/
