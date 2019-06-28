@@ -13,29 +13,20 @@ body {
   font-weight: 300;
   line-height: 1.6;
   color: #000000;
+  background-color: #FFFFFF;
 }
 
 header {
-  background-color: #FFFFFF;
   font-family: 'Source Code Pro', serif;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1.6;
   color: #000000;
   text-align: center;
   padding: 10px 0;
-  /* box-shadow:3px 3px 5px 0px rgba(183, 183, 183, 0.75);
-  width: 100%;
-  position: fixed; */
 }
-
-/* main {
-    padding-top: 184px;
-} */
 
 footer {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
   color: #000000;
@@ -65,36 +56,45 @@ footer .social ul li a {
   border-radius: 50%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Source Code Pro';
   line-height: 1.4;
+  text-align: center;
 }
 
 h1 {
-  font-size: 2.50em;
+  font-size: 1.8em;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 2.25em;
-  font-weight: 400;
+  font-size: 1.6em;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.75em;
-  font-weight: 400;
+  font-size: 1.4em;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 1.35em;
-  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: center;
+  line-height: 1.4;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 img {
   width: 100%;
 }
+
+u {
+    text-decoration: none;
+    border-bottom: 8px solid #F1F631;
+  }​
 
 a {
   color: #000000;
@@ -113,19 +113,21 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #FFFFFF;
+  background-color: #F1F631;
   color: #000000;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
-  border-radius: 3px;
-  border: 2px solid #F1F631;
   transition-duration: 0.4s;
+  border: 2px solid #F1F631;
+  border-radius: 7px;
 }
 
 .button:hover {
-  background-color: #F1F631;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 3px;
+  border: 2px solid #F1F631;
 }
 
 .button:active {
@@ -134,21 +136,23 @@ a:active {
 }
 
 .button.contact {
-  background-color: transparent;
+  background-color: #F1F631;
   color: #000000;
   text-transform: uppercase;
   border: 2px solid #F1F631;
+  border-radius: 7px;
   transition-duration: 0.4s;
 }
 
 .button.contact:hover {
-  background-color: #F1F631;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #F1F631;
 }
 
 .button.contact:active {
   background-color: #F1F631;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .contact.info {
@@ -168,13 +172,13 @@ a:active {
   background-color: #FFFFFF;
   border: 1.5px solid #0077B5;
   color: #0077B5;
+  transition: 0.4s;
 }
 
 .fa-linkedin:hover {
   opacity: 0.8;
   background-color: #0077B5;
   color: #FFFFFF;
-  transition: 0.4s;
 }
 
 .fa-linkedin:active {
@@ -187,12 +191,12 @@ a:active {
   background-color: #FFFFFF;
   border: 1.5px solid #EA4C89;
   color: #EA4C89;
+  transition: 0.4s;
 }
 
 .fa-dribbble:hover {
   background-color: #EA4C89;
   color: #FFFFFF;
-  transition: 0.4s;
 }
 
 .fa-dribbble:active {
@@ -204,12 +208,12 @@ a:active {
   background-color: #FFFFFF;
   border: 1.5px solid #FF0084;
   color: #FF0084;
+  transition: 0.4s;
 }
 
 .fa-flickr:hover {
   background-color: #FF0084;
   color: #FFFFFF;
-  transition: 0.4s;
 }
 
 .fa-flickr:active {
@@ -221,22 +225,17 @@ a:active {
   background-color: #FFFFFF;
   border: 1.5px solid #1DA1F2;
   color: #1DA1F2;
+  transition: 0.4s;
 }
 
 .fa-twitter:hover {
   background-color: #1DA1F2;
   color: #FFFFFF;
-  transition: 0.4s;
 }
 
 .fa-twitter:active {
   background-color: #35ABF3;
   color: #FFFFFF;
-}
-
-#cv {
-  text-align: center;
-
 }
 
 /*
@@ -250,8 +249,8 @@ a:active {
 }
 
 .logo {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 80px;
+  max-height: 80px;
   height: auto;
 }
 
@@ -290,6 +289,69 @@ nav > ul > li >a:active {
   margin: 25px 0;
 }
 
+.img-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+.img-container > div {
+  margin: 20px;
+}
+
+.column.col-md-6.col-lg-5 h3 {
+  text-align: left;
+}
+
+.fonts-container {
+  text-align: center;
+}
+.fonts-container #fonts {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
+.abode-logo {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.abode-symbol {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.illustration {
+  width: 32%;
+  height: auto;
+  display: inline-block;
+  margin: auto;
+}
+
+.persona1 {
+  padding: 0 0 10px 0;
+}
+
+.persona2 {
+  padding: 0 0 10px 0;
+}
+
+#gif {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#cv {
+  text-align: center;
+}
+
 #work .row {
   border-bottom: 1px solid #000000;
   padding-bottom: 25px;
@@ -300,56 +362,68 @@ nav > ul > li >a:active {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 #hero h1 {
-  text-align: center;
   font-weight: 600;
   text-transform: none;
 }
 
-#hero h1 span {
+#hero span {
   font-weight: 400;
+  display: block;
 }
 
 #hero h4 {
-  text-align: center;
   font-family: 'Open Sans';
 }
 
-#work h2 {
-  text-align: center;
+#schnitzeljagdTestings h4 {
+  text-align: left;
+}
+#schnitzeljagdTestings span {
+  text-decoration: none;
 }
 
-#schnitzeljagd h1 {
-  text-align: center;
+#abodeDS h4 {
+  text-align: left;
 }
 
-#schnitzeljagd h2 {
-  text-align: center;
+#abouth3 {
+  margin-top: 0;
 }
 
-#schnitzeljagd h3 {
-  text-align: center;
+/*
+========================
+    CSS KEYFRAMES
+========================
+*/
+
+@keyframes color-change1 {
+  0% {fill: #FAF20F;}
+  50% {fill: ##F3DA35;}
+  100% {fill: #F3682C;}
 }
 
-#abode h1 {
+.sun {
+  animation: 4s color-change1 infinite alternate linear;
   text-align: center;
-}
-#abode h2 {
-  text-align: center;
+
 }
 
-#abode h3 {
-  text-align: center;
+@keyframes airplane-move {
+  from {transform: translate(11px,10px);}
+  to {transform: translate(-600px,10px);}
 }
 
-#about h1 {
-  text-align: center;
+.airplane {
+  text-align: right;
+  animation: 8s airplane-move infinite linear;
 }
 
-#about h2 {
-  text-align: center;
+.umbrella {
+  fill: #2E9EF3;
 }
 
 /*
@@ -357,3 +431,74 @@ nav > ul > li >a:active {
     MEDIA QUERIES
 ========================
 */
+
+[class*="col-"] {
+  float: left;
+  padding: 0 10px 0 10px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 10px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58.3%;
+    float: left;
+  }
+
+  .col-lg-5 {
+    width: 41.6%;
+    float: right;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+  .iframe-container {
+    transform: scale(0.65);
+    margin-left: -28%;
+  }
+  .iframe-container iframe {
+    width: 500px;
+  }
+}
+
+@media (max-width: 450px) and (min-width: 321px) {
+  .iframe-container {
+    transform: scale(0.7);
+    margin-left: -17%;
+  }
+  .iframe-container iframe {
+    width: 120%;
+  }
+}
