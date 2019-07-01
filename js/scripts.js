@@ -1,1 +1,1 @@
-console.log("Hi there! Thanks for dropping by ")
+console.log("Hi there! Welcome to my portfolio site")
