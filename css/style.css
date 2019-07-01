@@ -19,18 +19,12 @@ body {
 header {
   font-family: 'Source Code Pro', serif;
   font-weight: 600;
-  line-height: 1.6;
-  color: #000000;
   text-align: center;
   padding: 10px 0;
   background-color: #F1F631;
 }
 
 footer {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.6;
-  color: #000000;
   text-align: center;
   padding-top: 35px;
 }
@@ -312,13 +306,14 @@ nav > ul > li >a:active {
 }
 
 .fonts-container {
-  display: block;
-  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
 }
-.fonts-container #fonts {
-  display: inline-block;
-  padding: 0 10px 0 10px;
-  text-align: center;
+
+.fonts-container picture {
+  width: 50%;
 }
 
 .abode-logo {
@@ -427,7 +422,6 @@ nav > ul > li >a:active {
 .sun {
   animation: 4s color-change1 infinite alternate linear;
   text-align: center;
-
 }
 
 @keyframes airplane-move {
@@ -471,6 +465,14 @@ nav > ul > li >a:active {
   }
 }
 
+/* invision prototype devices > iphone 5 */
+@media only screen and (min-width: 451px) {
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
   header {
@@ -484,7 +486,7 @@ nav > ul > li >a:active {
     margin-top: 5px;
   }
 
-  p, li {
+  body {
     font-size: 18px;
   }
 
@@ -559,7 +561,7 @@ nav > ul > li >a:active {
     margin-right: auto;
   }
 
-  p, li {
+  body{
     font-size: 20px;
   }
 
