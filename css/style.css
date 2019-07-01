@@ -130,11 +130,13 @@ a:active {
   color: #000000;
   border-radius: 3px;
   border: 2px solid #F1F631;
+  border-radius: 7px;
 }
 
 .button:active {
   background-color: #F1F631;
   color: #FFFFFF;
+  border-radius: 7px;
 }
 
 .button.contact {
@@ -150,11 +152,13 @@ a:active {
   background-color: #FFFFFF;
   color: #000000;
   border: 2px solid #F1F631;
+  border-radius: 7px;
 }
 
 .button.contact:active {
   background-color: #F1F631;
   color: #000000;
+  border-radius: 7px;
 }
 
 .contact.info {
