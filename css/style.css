@@ -361,10 +361,19 @@ nav > ul > li >a:active {
   border-bottom: 1px solid #000000;
   padding-bottom: 25px;
 }
-
 #work h3 {
   margin: 20px 0;
+  text-align: center;
 }
+#work .btn-container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
 #hero {
   background-color: #FFFFFF;
   padding: 20px 0;
@@ -476,7 +485,7 @@ nav > ul > li >a:active {
   }
 
   .container {
-    max-width: 600px;
+    max-width: 620px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -537,6 +546,7 @@ nav > ul > li >a:active {
   .col-lg-5 {
     width: 41.6%;
     float: right;
+    padding-left: 30px;
   }
 
   .container {
@@ -566,5 +576,13 @@ nav > ul > li >a:active {
 
   #about h3 {
     margin-top: 0;
+  }
+
+  #work .row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
   }
 }
