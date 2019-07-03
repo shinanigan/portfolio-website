@@ -34,6 +34,14 @@ header {
   top: 12px;
   font-size: 30px;
 }
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -49,6 +57,14 @@ nav > ul > li >a:hover {
 nav > ul > li >a:active {
   color: #000000;
   text-decoration: underline;
+}
+.icon:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.icon:active {
+  color: #000000;
+  text-decoration: none;
 }
 
 footer {
@@ -123,8 +139,8 @@ a {
   color: #000000;
 }
 
-a:hover,
-a:focus {
+a:not(.icon):hover,
+a:not(.icon):focus {
   color: #F1F631;
   text-decoration: none;
 }

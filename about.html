@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/441ca3efb6.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600|Source+Code+Pro:400,600,700&display=swap" rel="stylesheet">
@@ -15,14 +16,17 @@
 <body id="about">
   <header>
     <div class="container">
-      <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle"id="myNavtoggle">
+        <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -105,6 +109,10 @@
       <p>Copyright Sarah Shin Honner 2019</p>
     </div>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 

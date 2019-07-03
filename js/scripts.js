@@ -1,1 +1,8 @@
-console.log("Hi there! Welcome to my portfolio site")
+function menuToggle() {
+  var navbar = document.getElementById('myNavtoggle');
+  if (navbar.className === 'navtoggle') {
+    navbar.className += ' responsive';
+  } else {
+    navbar.className = 'navtoggle';
+  }
+}
