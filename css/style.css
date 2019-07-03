@@ -19,9 +19,36 @@ body {
 header {
   font-family: 'Source Code Pro', serif;
   font-weight: 600;
-  text-align: center;
-  padding: 10px 0;
+  padding: 12px 0;
   background-color: #F1F631;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  font-size: 30px;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000000;
+}
+nav > ul > li >a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+nav > ul > li >a:active {
+  color: #000000;
+  text-decoration: underline;
 }
 
 footer {
@@ -255,36 +282,11 @@ a:active {
 footer h2{
   margin: 30px 0;
 }
-nav {
-  display: inline-block;
-  width: 100%;
-}
 
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
-}
-
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 600;
-  color: #000000;
-}
-
-nav > ul > li >a:hover {
-  color: #000000;
-  text-decoration: underline;
-}
-
-nav > ul > li >a:active {
-  color: #000000;
-  text-decoration: underline;
+  margin: 0;
 }
 
 .row{
@@ -474,7 +476,7 @@ nav > ul > li >a:active {
 }
 
 /* Medium devices (640px and larger) */
-@media only screen and (min-width: 640px) and (max-width: 1024px) {
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -484,6 +486,18 @@ nav > ul > li >a:active {
     width: auto;
     float: right;
     margin-top: 5px;
+  }
+  nav > ul {
+  margin: 1em 0;
+}
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 
   body {
@@ -542,6 +556,18 @@ nav > ul > li >a:active {
     width: auto;
     float: right;
     margin-top: 5px;
+  }
+  nav > ul {
+  margin: 1em 0;
+}
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 
   .col-lg-7 {
