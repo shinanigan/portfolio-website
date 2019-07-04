@@ -50,14 +50,14 @@ nav > ul > li > a {
   font-weight: 600;
   color: #000000;
 }
-nav > ul > li >a:hover {
+/* nav > ul > li >a:hover {
   color: #000000;
   text-decoration: underline;
 }
 nav > ul > li >a:active {
   color: #000000;
   text-decoration: underline;
-}
+} */
 .icon:hover {
   color: #000000;
   text-decoration: none;
@@ -65,6 +65,14 @@ nav > ul > li >a:active {
 .icon:active {
   color: #000000;
   text-decoration: none;
+}
+.nav-items {
+  background-image:linear-gradient(to right, transparent 50%, #FFFFFF 50%);
+  background-size: 200%;
+  transition:background-position 0.5s;
+}
+.nav-items:hover {
+  background-position: -100%;
 }
 
 footer {
@@ -130,25 +138,25 @@ img {
   width: 100%;
 }
 
-u {
-    text-decoration: none;
-    border-bottom: 8px solid #F1F631;
-  }​
-
-a {
-  color: #000000;
-}
-
 a:not(.icon):hover,
 a:not(.icon):focus {
-  color: #F1F631;
+  color: #000000;
   text-decoration: none;
 }
-
 a:active {
   color: #F1F631
   text-decoration: none;
 }
+a:not(.nav-items):not(.button) {
+  color: #000000;
+  background-image:linear-gradient(to right, transparent 50%, #F1F631 50%);
+  background-size: 200%;
+  transition:background-position 0.5s;
+}
+a:not(.nav-items):hover {
+  background-position: -100%;
+}
+
 
 .button {
   display: inline-block;
@@ -198,17 +206,14 @@ a:active {
   border-radius: 7px;
 }
 
-.contact.info {
-  text-decoration: underline;
-}
-
-.fa {
+.fab {
   padding: 15px;
   font-size: 30px;
   width: 50px;
   height: 50px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50%;
 }
 
 .fa-linkedin {
@@ -216,6 +221,7 @@ a:active {
   border: 1.5px solid #0077B5;
   color: #0077B5;
   transition: 0.4s;
+  padding: 10px 10px;
 }
 
 .fa-linkedin:hover {
@@ -235,6 +241,7 @@ a:active {
   border: 1.5px solid #EA4C89;
   color: #EA4C89;
   transition: 0.4s;
+  padding: 10px 10px;
 }
 
 .fa-dribbble:hover {
@@ -252,6 +259,7 @@ a:active {
   border: 1.5px solid #FF0084;
   color: #FF0084;
   transition: 0.4s;
+  padding: 10px 10px;
 }
 
 .fa-flickr:hover {
@@ -269,6 +277,7 @@ a:active {
   border: 1.5px solid #1DA1F2;
   color: #1DA1F2;
   transition: 0.4s;
+  padding: 10px 10px;
 }
 
 .fa-twitter:hover {
@@ -431,6 +440,10 @@ nav > ul {
 ========================
 */
 
+.animation-frame {
+  overflow: hidden;
+}
+
 @keyframes color-change1 {
   0% {fill: #FAF20F;}
   50% {fill: ##F3DA35;}
@@ -443,13 +456,13 @@ nav > ul {
 }
 
 @keyframes airplane-move {
-  from {transform: translate(11px,10px);}
-  to {transform: translate(-600px,10px);}
+  from {transform: translate(50px,10px);}
+  to {transform: translate(-400px,10px);}
 }
 
 .airplane {
   text-align: right;
-  animation: 8s airplane-move infinite linear;
+  animation: 5s airplane-move infinite linear;
 }
 
 .umbrella {
@@ -545,6 +558,10 @@ nav > ul {
   [class*="col-"] {
     float: left;
     padding: 0 10px 0 10px;
+  }
+
+  #about .col-lg-4 {
+    width: 100%;
   }
 
   .row::after{
