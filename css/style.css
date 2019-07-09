@@ -140,7 +140,7 @@ a:not(.icon):focus {
   text-decoration: none;
 }
 a:active {
-  color: #F1F631
+  color: #F1F631;
   text-decoration: none;
 }
 a:not(.nav-items):not(.button) {
@@ -442,10 +442,10 @@ nav > ul {
 
 @keyframes color-change1 {
   0% {fill: #FAF20F;}
-  50% {fill: ##F3DA35;}
+  50% {fill: #F3DA35;}
   100% {fill: #F3682C;}
 }
-
+ 
 .sun {
   animation: 4s color-change1 infinite alternate linear;
   text-align: center;
