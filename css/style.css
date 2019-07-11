@@ -290,7 +290,7 @@ a:not(.nav-items):hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: transparent;
+  background: #fff;
   width: 50px;
   height: 50px;
   display: block;
@@ -317,7 +317,7 @@ a:not(.nav-items):hover {
   transition: all 0.3s ease;
 }
 #topBtn:hover {
-  background: rgba(241, 246, 49, 0.9);
+  background: #fff;
 }
 #topBtn:hover i {
   color: #000;
