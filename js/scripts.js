@@ -6,3 +6,17 @@ function menuToggle() {
     navbar.className = 'navtoggle';
   }
 }
+
+// ===== Scroll to Top ====
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {
+        $('#topBtn').fadeIn(200);
+    } else {
+        $('#topBtn').fadeOut(200);
+    }
+});
+$('#topBtn').click(function() {
+    $('body,html').animate({
+        scrollTop : 0
+    }, 500);
+});

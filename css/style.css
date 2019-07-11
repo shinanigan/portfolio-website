@@ -286,6 +286,44 @@ a:not(.nav-items):hover {
   color: #FFFFFF;
 }
 
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#topBtn i {
+  color: #000;
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#topBtn:hover {
+  background: rgba(241, 246, 49, 0.9);
+}
+#topBtn:hover i {
+  color: #000;
+  top: 5px;
+}
+
 /*
 ========================
     Layout styling
@@ -445,7 +483,7 @@ nav > ul {
   50% {fill: #F3DA35;}
   100% {fill: #F3682C;}
 }
- 
+
 .sun {
   animation: 4s color-change1 infinite alternate linear;
   text-align: center;
