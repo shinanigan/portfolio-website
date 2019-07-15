@@ -74,9 +74,10 @@ footer {
 }
 
 hr.line {
-  height: 6px;
+  border-top: 2px dotted #000000;
+  /* height: 6px;
   background: url(http://ibrahimjabbari.com/images/hr-11.png) repeat-x 0 0;
-  border: 0;
+  border: 0; */
   }
 
 footer .container p:last-child {
